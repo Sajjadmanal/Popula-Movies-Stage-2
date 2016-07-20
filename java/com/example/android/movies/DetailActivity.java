@@ -7,6 +7,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+
 public class DetailActivity extends AppCompatActivity {
 
     @Override
