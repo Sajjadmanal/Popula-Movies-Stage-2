@@ -20,7 +20,6 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.example.android.movies.adapters.ReviewAdapter;
 import com.example.android.movies.adapters.TrailerAdapter;
 import com.example.android.movies.asyncTasks.ReviewTask;
@@ -28,9 +27,7 @@ import com.example.android.movies.asyncTasks.TrailerTask;
 import com.example.android.movies.data.Movie;
 import com.example.android.movies.data.MovieContract;
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
