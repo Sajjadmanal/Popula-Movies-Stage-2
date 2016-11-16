@@ -1,3 +1,5 @@
+/* ApplicationTest by: Sajjad Manal
+*/
 package com.example.android.movies;
 
 import android.app.Application;
