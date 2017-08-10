@@ -96,7 +96,7 @@ public class FavoritesFragment extends Fragment implements LoaderManager.LoaderC
     @Override
     public void onLoaderReset(Loader<Cursor> loader) {}
 
-    //Getting data from cursor
+    //Getting data from the cursor
     private void getDataFromCursor(Cursor cursor) {
         movies.clear();
         if (cursor != null) {
