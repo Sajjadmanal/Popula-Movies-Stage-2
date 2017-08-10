@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements MoviesFragment.Mo
         setTabView(tabLayout);
     }
 
-    //Setting tab custom view
+    //For setting tab custom view
     private void setTabView(@NonNull final TabLayout tabLayout){
         for(int i=0;i<3;i++) {
             tabLayout.getTabAt(i).setCustomView(mSectionsPagerAdapter.getTabView(this, i));
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements MoviesFragment.Mo
         });
     }
 
-    //called when movie clicked
+    //called when movie is clicked
     private void onItemClicked(Movie movie){
         if(mTwoPane){
             Bundle bundle = new Bundle();
