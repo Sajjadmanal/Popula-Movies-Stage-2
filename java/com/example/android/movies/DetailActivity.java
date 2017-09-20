@@ -16,7 +16,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        //Adding fragment
+        //Adding the fragment
         getSupportFragmentManager().beginTransaction()
                 .add(R.id.detail_container, new DetailFragment())
                 .commit();
