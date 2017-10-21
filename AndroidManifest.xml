@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.movies">
 
+    
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -30,6 +31,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.movies.MainActivity" />
         </activity>
+        
         <provider
             android:name=".data.MovieProvider"
             android:authorities="com.example.android.movies"/>
