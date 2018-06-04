@@ -55,7 +55,7 @@ public class Movie implements Parcelable {
     public int getTotal_votes() { return total_votes; }
 
     public void setTotal_votes(int total_votes) { this.total_votes = total_votes; }
-
+//
     protected Movie(Parcel in) {
         id = in.readString();
         title = in.readString();
@@ -101,5 +101,4 @@ public class Movie implements Parcelable {
             return new Movie[size];
         }
     };
-
 }
