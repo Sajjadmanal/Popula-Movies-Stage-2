@@ -1,4 +1,4 @@
-# Udacity Popular Movies
+# Popular Movies ANdroid Application
 
 Fully functional app for [Android Developer Nanodegree program](https://www.udacity.com/course/android-developer-nanodegree--nd801). This app uses responsive design for phones and tablets. It is reviewed by Udacity code reviewer. 
 
@@ -19,7 +19,7 @@ You must provide your own API key in order to build the app. When you get it, ju
 public static final String API_KEY = "YOU_API_KEY";
 ```
 
-## Libraries
+## Libraries Used
 
 * [ButterKnife](https://github.com/JakeWharton/butterknife)
 * [Dagger 2](https://github.com/google/dagger)
