@@ -2,7 +2,7 @@
 
 Fully functional app for [Android Developer Nanodegree program](https://www.udacity.com/course/android-developer-nanodegree--nd801). This app uses responsive design for phones and tablets. It is reviewed by Udacity code reviewer. 
 
-## Features
+## Features of the App
 
 With the app, you can:
 * Discover the most popular or the highest rated movies
